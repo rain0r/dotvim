@@ -56,4 +56,3 @@ autocmd BufWritePre *.py :%s/\s\+$//e
 " display command line in xmonad
 map <F4> :let &lines=&lines-1<CR>
 map <S-F4> :let &lines=&lines+1<CR>
-
