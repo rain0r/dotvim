@@ -8,7 +8,7 @@ if has("unix")
 		set guifont=SourceCodePro\ 10
 	endif
 endif
-
+set guifont=Source\ Code\ Pro:h16
 " General
 set antialias                     " MacVim: smooth fonts.
 set encoding=utf-8                " Use UTF-8 everywhere.
