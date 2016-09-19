@@ -2,6 +2,7 @@ call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' } 
 Plug 'altercation/vim-colors-solarized'
+Plug 'valloric/youcompleteme'
 call plug#end()
 
 " Basics
@@ -56,3 +57,6 @@ autocmd BufWritePre *.py :%s/\s\+$//e
 " display command line in xmonad
 map <F4> :let &lines=&lines-1<CR>
 map <S-F4> :let &lines=&lines+1<CR>
+
+" You complete me
+let g:ycm_python_binary_path = '/usr/local/bin/python3'

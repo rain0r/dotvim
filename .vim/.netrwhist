@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/Users/rainer/develop'
 let g:netrw_dirhist_2='/Users/rainer/develop/pro'
+let g:netrw_dirhist_3='/home/rainer/develop/mis/src/main/java/edu/una/miscenarios/lib/estimators'
+let g:netrw_dirhist_4='/home/rainer/develop/pro'
